@@ -1,0 +1,21 @@
+wap to find minimum value of X and Y
+whrer 3X+7Y=145
+
+wap to find minimum no. of coin for rupees 145
+and you have two types of coin 3&7
+
+wap to find X where X is a count of unique no. 
+out of 10 lakhs two digit no. enterd to the key board
+
+in case of bfs 
+1)push element into a queue 
+2)start your loop
+3)pop from the queue
+4)caculate next possible result from poped element and pushh into a queue
+5)repeat above 3 steps until you didnot find a solution
+
+
+
+static final int LIMIT = 1_000_000;
+		static int[] solutions = buildSolutions();
+	
